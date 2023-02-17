@@ -1,0 +1,59 @@
+
+.compu{
+  background-image: url("./images/2467789.png");
+ background-size: 90% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 130px;
+}
+.compu, p{
+  padding-top: 20px;
+}
+.espacio{
+  width: 50px;
+}
+.table, td{
+  text-align: center;
+  border-top: 9px solid #ffffff00;
+  border-left: 4px solid #ffffff00;
+  border-right: 4px solid #ffffff00;
+  
+}
+.modal-content{
+  background-image: url("./img/01-bg-form.png");
+  background-size: cover;
+  border-radius: 20px;
+}
+.table, .titulo{
+  text-align: center;
+  border-radius: 15px;
+  background-color: white;
+}
+.table td, .table th {
+  padding: .75rem;
+  vertical-align: top;
+  border-top: 1px solid #dee2e600;
+}
+.dot {
+  margin: 0 auto;
+  height: 35px;
+  width: 35px;
+  background-color: #f1b5b8;
+  border-radius: 50%;
+  display: inline-block;
+}
+@media screen and (max-width:900px){
+  .compu{
+    height: 110%;
+  }
+  .compu, p{
+    padding-top: 0%;
+  }
+  .dot {
+    height: 25px;
+    width: 25px;
+  }
+  table{
+    width: 50%;
+  }
+}

@@ -1,0 +1,89 @@
+.fc-day-number {
+    font-size: 1.5em;
+    color: #5c005c;
+  }
+  
+  /* override day title color and size */
+  .fc-day-header {
+    font-size: 1.5em;
+    color: #00b294;
+  }
+  .App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  .calendar{
+    text-align: center;
+    float: right;
+    padding: 6px;
+    background-color: white;
+    border-radius: 15px;
+    width: 60%;
+    margin-left: 5px;
+  }
+  .fc .fc-toolbar-title{
+
+    font-size: 1.4em;
+  }
+  .fc {
+    background-color: white;
+  }
+  
+.circu{
+  padding: 25px;
+  background: #ccc;
+  border-radius: 50px;
+}
+
+#grupoRadio label:hover{
+  cursor: pointer;
+}
+
+#grupoRadio input[type="radio"]:checked + label {
+  border: 3px solid #ccc !important;  
+}
+
+
+.activado input[type=radio]:checked + label {
+  border: 3px solid #555 !important;  
+}
+.reservas{
+  padding: 10px;
+  float: left;
+  width: 35%;
+  background-color: white;
+  border-radius: 15px;
+}
+@media screen and (max-width:900px){
+  .calendar{
+    text-align: center;
+    padding: 6px;
+    background-color: white;
+    border-radius: 15px;
+    width: 100%;
+    
+  }
+  .reservas{
+    padding: 10px;
+    float: right;
+    width: 100%;
+    background-color: white;
+    border-radius: 15px;
+    margin-bottom: 8px;
+  }
+  .dropleft .dropdown-menu {
+    top: 0;
+    right: 63%;
+    left: auto;
+    margin-top: 0;
+    margin-right: .125rem;
+}
+}
+@media screen and (max-width:500px){
+  .calendar{
+    font-size: 0.8em;
+  }
+  .fc .fc-toolbar-title {
+    font-size: 0.9em;
+}
+  }

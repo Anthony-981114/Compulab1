@@ -1,0 +1,59 @@
+
+
+.quick-events .events-calendar .calendar-header .nav-time .btn-change-date {
+  border: 1px solid #f21e4e;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  margin-left: 10px;
+  padding: 5px 10px;
+  background: #f21e4e;
+  color: #fff;
+  cursor: pointer;
+  font-size: 15px;
+}
+#calendar 
+ button:not(:disabled) {
+  border: 1px solid rgb(10, 129, 240);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  margin-left: 10px;
+  padding: 5px 10px;
+  background: rgb(10, 129, 240);
+  color: #fff;
+  cursor: pointer;
+}
+#btn-slider{
+  background-color: transparent;
+  border: none;
+}
+#btn-slider:hover{
+  color: rgb(236, 236, 236);
+}
+/****************/
+input {
+  display: none;
+}
+
+
+.fc-content{
+  color: #fff !important;
+}
+
+
+
+#btnCerrar{
+  color:crimson;
+  padding: 5px;
+  background: #8888;
+  border-radius: 25px;
+  font-size: 17px;
+  font-weight: 600;
+}
+#btnCerrar:hover{
+  cursor: pointer;
+  background-color: #333;
+}
+
+
